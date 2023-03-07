@@ -43,18 +43,18 @@ elif comp_input == 2 :
     print("Computer:\n",scissors)
 
 if user_input >= 3 or user_input < 0 :
-    print(f"You typed {user_input} which is an invalid number, so you lose by default!")
+    print(f"You typed {user_input} which is not valid, so you LOSE by default!")
 elif user_input == comp_input :
     print("It's a DRAW...")
 elif user_input == 0 and comp_input == 1 :
-    print("You LOOSE !!!")
+    print("You LOSE !!!")
 elif user_input == 0 and comp_input == 2 :
     print("You WiN !!!")
 elif user_input == 1 and comp_input == 0 :
     print("You WiN !!!")
 elif user_input == 1 and comp_input == 2 :
-    print("You LOOSE !!!")
+    print("You LOSE !!!")
 elif user_input == 2 and comp_input == 0 :
-    print("You LOOSE !!!")
+    print("You LOSE !!!")
 elif user_input == 2 and comp_input == 1 :
     print("You WiN !!!")
